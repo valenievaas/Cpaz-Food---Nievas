@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
+// colores
+$col1:#FF4821;
+$col2:#CC3D1F;
+$col3:#000;
+$col4:#fff;
+
+// fuentes
+$font1:'Rubik Glitch', cursive;
+$font2:'Titillium Web', sans-serif;
 
 * {
     margin: 0;
@@ -11,27 +20,26 @@
 // inicio navbar
 .navbar-brand {
     font-size: 2.2rem;
-    color: #000000;
-    font-family: 'Rubik Glitch', cursive;
+    color: $col3;
+    font-family: $font1;
 
     &:hover {
-        color: #f81a5c;
+        color: $col1;
         transition: 0.3s;
-        font-size: 2.4rem;
     }
 }
 
 .nav-link {
     font-size: 1.1rem;
     margin: 0px 10px 0px 10px;
-    color: #000000;
+    color: $col3;
     text-transform: uppercase;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: $font2;
 
     &:hover {
-        background-color: #000000;
-        color: #ffffff;
-        border: 2px solid #000000;
+        background-color: $col3;
+        color: $col4;
+        border: 2px solid $col3;
         transition: 0.4s;
     }
 
@@ -43,8 +51,8 @@
     border-radius: 5px;
     outline: none;
     margin-right: -35px;
-    border: 2px solid #f81a5c;
-    font-family: 'Titillium Web', sans-serif;
+    border: 2px solid $col1;
+    font-family: $font2;
 }
 
 .btn0 {
@@ -52,14 +60,14 @@
     width: 40%;
     outline: none;
     border: none;
-    background-color: #f81a5c;
-    color: #ffffff;
+    background-color: $col1;
+    color: $col4;
     font-weight: 700;
     border-radius: 5px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: $font2;
 
     &:hover {
-        background-color: #a81440;
+        background-color: $col2;
     }
 }
 // fin navbar
@@ -72,14 +80,14 @@
     background-position: 50% 50%;
     height: 100vh;
     width: 100%;
+    font-family: $font2;
 
     h1 {
         font-size: 3.2rem;
         font-weight: 700;
-        color: #000000;
+        color: $col3;
         border-radius: 20px;
         text-align: center;
-        font-family: 'Titillium Web', sans-serif;
         padding-top: 80px;
     }
 
@@ -89,14 +97,13 @@
         font-size: 20px;
         border: none;
         outline: none;
-        background-color: #f81a5c;
-        color: #ffffff;
+        background-color: $col1;
+        color: $col4;
         font-weight: 700;
         border-radius: 5px;
-        font-family: 'Titillium Web', sans-serif;
 
         &:hover {
-            background-color: #a81440;
+            background-color: $col2;
             transform: scale(1.05);
         }
     }
@@ -108,18 +115,29 @@
     h1 {
         text-align: center;
         margin-top: 30px;
+        font-family: $font2;
     }
 
     p {
         text-align: center;
         font-size: 25px;
-        color: #a81440;
+        color: $col2;
     }
 }
 // fin main "productos"
 
 // inicio section "productos"
+section{
+    font-family: $font2;
+    h2{
+        font-size: 20px;
+        font-family: $font2;
+    }
+}
+
 .card {
+    font-family: $font2;
+
     &:hover {
         box-shadow: 2px 0px 7px 2px #000000bf;
         -webkit-box-shadow: 2px 0px 7px 2px #000000bf;
@@ -131,6 +149,8 @@
 
 // inicio main "contacto"
 .mainC {
+    font-family: $font2;
+
     h1 {
         text-align: center;
         margin-top: 30px;
@@ -139,38 +159,43 @@
     p {
         text-align: center;
         font-size: 25px;
-        color: #a81440;
+        color: $col2;
     }
 }
 
 .contacto {
+    font-family: $font2;
+
     .btn2 {
         height: 45px;
         width: 35%;
         font-size: 20px;
         border: none;
         outline: none;
-        background-color: #f81a5c;
-        color: #ffffff;
+        background-color: $col1;
+        color: $col4;
         font-weight: 700;
         border-radius: 5px;
         font-family: 'Titillium Web', sans-serif;
         margin-top: 20px;
 
         &:hover {
-            background-color: #a81440;
+            background-color: $col2;
             transition: 0.3s;
             transform: scale(1.05);
         }
     }
 
     .formulario {
+        font-family: $font2;
         margin: 15px;
     }
 
     .iconosRedes {
+        font-family: $font2;
+
         ul li a {
-            color: #000000;
+            color: $col3;
             float: left;
             font-size: 40px;
             margin-left: 35px;
@@ -191,17 +216,20 @@
 
 // main-section "nosotros"
 .mainN {
+    font-family: $font2;
 
     h2 {
         font-size: 20px;
         margin-bottom: 25px;
         font-weight: 400;
         margin: 10px;
+        font-family: 'Titillium Web', sans-serif;
     }
 
     p {
         font-size: 18px;
         margin: 10px;
+        font-family: 'Titillium Web', sans-serif;
     }
 
     .nosotros {
@@ -218,48 +246,48 @@
 
 // inicio footer
 footer {
-    background-color: #000000;
+    font-family: $font2;
+    background-color: $col3;
 
     .logo {
         font-size: 2.2rem;
-        color: #ffffff;
-        font-family: 'Rubik Glitch', cursive;
+        color: $col4;
+        font-family: $font1;
 
         &:hover {
-            color: #f81a5c;
+            color: $col1;
             transition: 0.3s;
-            font-size: 2.4rem;
         }
     }
 
     .titulitos {
         font-size: 25px;
-        color: #ffffff;
+        color: $col4;
         text-decoration: underline;
     }
 
     .links {
         font-size: 15px;
         margin: 0px 10px 0px 10px;
-        color: #ffffff;
+        color: $col4;
         text-transform: uppercase;
         font-family: 'Titillium Web', sans-serif;
         text-decoration: none;
 
         &:hover {
-            color: #f81a5c;
+            color: $col1;
             transition: 0.3s;
         }
     }
 
     ul li a {
         font-size: 35px;
-        color: #ffffff;
+        color: $col4;
         margin-left: 20px;
         margin-right: 20px;
 
         &:hover {
-            color: #f81a5c;
+            color: $col1;
             transition: 0.3s;
         }
     }

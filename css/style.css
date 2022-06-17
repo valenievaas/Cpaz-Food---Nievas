@@ -8,26 +8,25 @@
 
 .navbar-brand {
   font-size: 2.2rem;
-  color: #000000;
+  color: #000;
   font-family: "Rubik Glitch", cursive;
 }
 .navbar-brand:hover {
-  color: #f81a5c;
+  color: #FF4821;
   transition: 0.3s;
-  font-size: 2.4rem;
 }
 
 .nav-link {
   font-size: 1.1rem;
   margin: 0px 10px 0px 10px;
-  color: #000000;
+  color: #000;
   text-transform: uppercase;
   font-family: "Titillium Web", sans-serif;
 }
 .nav-link:hover {
-  background-color: #000000;
-  color: #ffffff;
-  border: 2px solid #000000;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
   transition: 0.4s;
 }
 
@@ -37,7 +36,7 @@
   border-radius: 5px;
   outline: none;
   margin-right: -35px;
-  border: 2px solid #f81a5c;
+  border: 2px solid #FF4821;
   font-family: "Titillium Web", sans-serif;
 }
 
@@ -46,14 +45,14 @@
   width: 40%;
   outline: none;
   border: none;
-  background-color: #f81a5c;
-  color: #ffffff;
+  background-color: #FF4821;
+  color: #fff;
   font-weight: 700;
   border-radius: 5px;
   font-family: "Titillium Web", sans-serif;
 }
 .btn0:hover {
-  background-color: #a81440;
+  background-color: #CC3D1F;
 }
 
 .mainI {
@@ -63,14 +62,14 @@
   background-position: 50% 50%;
   height: 100vh;
   width: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 .mainI h1 {
   font-size: 3.2rem;
   font-weight: 700;
-  color: #000000;
+  color: #000;
   border-radius: 20px;
   text-align: center;
-  font-family: "Titillium Web", sans-serif;
   padding-top: 80px;
 }
 .mainI .btn1 {
@@ -79,27 +78,38 @@
   font-size: 20px;
   border: none;
   outline: none;
-  background-color: #f81a5c;
-  color: #ffffff;
+  background-color: #FF4821;
+  color: #fff;
   font-weight: 700;
   border-radius: 5px;
-  font-family: "Titillium Web", sans-serif;
 }
 .mainI .btn1:hover {
-  background-color: #a81440;
+  background-color: #CC3D1F;
   transform: scale(1.05);
 }
 
 .mainP h1 {
   text-align: center;
   margin-top: 30px;
+  font-family: "Titillium Web", sans-serif;
 }
 .mainP p {
   text-align: center;
   font-size: 25px;
-  color: #a81440;
+  color: #CC3D1F;
 }
 
+section {
+  font-family: "Titillium Web", sans-serif;
+}
+section h2 {
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.card {
+  font-family: "Titillium Web", sans-serif;
+}
 .card:hover {
   box-shadow: 2px 0px 7px 2px rgba(0, 0, 0, 0.7490196078);
   -webkit-box-shadow: 2px 0px 7px 2px rgba(0, 0, 0, 0.7490196078);
@@ -107,6 +117,9 @@
   transition: 0.4s;
 }
 
+.mainC {
+  font-family: "Titillium Web", sans-serif;
+}
 .mainC h1 {
   text-align: center;
   margin-top: 30px;
@@ -114,32 +127,39 @@
 .mainC p {
   text-align: center;
   font-size: 25px;
-  color: #a81440;
+  color: #CC3D1F;
 }
 
+.contacto {
+  font-family: "Titillium Web", sans-serif;
+}
 .contacto .btn2 {
   height: 45px;
   width: 35%;
   font-size: 20px;
   border: none;
   outline: none;
-  background-color: #f81a5c;
-  color: #ffffff;
+  background-color: #FF4821;
+  color: #fff;
   font-weight: 700;
   border-radius: 5px;
   font-family: "Titillium Web", sans-serif;
   margin-top: 20px;
 }
 .contacto .btn2:hover {
-  background-color: #a81440;
+  background-color: #CC3D1F;
   transition: 0.3s;
   transform: scale(1.05);
 }
 .contacto .formulario {
+  font-family: "Titillium Web", sans-serif;
   margin: 15px;
 }
+.contacto .iconosRedes {
+  font-family: "Titillium Web", sans-serif;
+}
 .contacto .iconosRedes ul li a {
-  color: #000000;
+  color: #000;
   float: left;
   font-size: 40px;
   margin-left: 35px;
@@ -153,15 +173,20 @@
   margin-top: 35px;
 }
 
+.mainN {
+  font-family: "Titillium Web", sans-serif;
+}
 .mainN h2 {
   font-size: 20px;
   margin-bottom: 25px;
   font-weight: 400;
   margin: 10px;
+  font-family: "Titillium Web", sans-serif;
 }
 .mainN p {
   font-size: 18px;
   margin: 10px;
+  font-family: "Titillium Web", sans-serif;
 }
 .mainN .nosotros {
   border-radius: 5px;
@@ -173,43 +198,43 @@
 }
 
 footer {
-  background-color: #000000;
+  font-family: "Titillium Web", sans-serif;
+  background-color: #000;
 }
 footer .logo {
   font-size: 2.2rem;
-  color: #ffffff;
+  color: #fff;
   font-family: "Rubik Glitch", cursive;
 }
 footer .logo:hover {
-  color: #f81a5c;
+  color: #FF4821;
   transition: 0.3s;
-  font-size: 2.4rem;
 }
 footer .titulitos {
   font-size: 25px;
-  color: #ffffff;
+  color: #fff;
   text-decoration: underline;
 }
 footer .links {
   font-size: 15px;
   margin: 0px 10px 0px 10px;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   font-family: "Titillium Web", sans-serif;
   text-decoration: none;
 }
 footer .links:hover {
-  color: #f81a5c;
+  color: #FF4821;
   transition: 0.3s;
 }
 footer ul li a {
   font-size: 35px;
-  color: #ffffff;
+  color: #fff;
   margin-left: 20px;
   margin-right: 20px;
 }
 footer ul li a:hover {
-  color: #f81a5c;
+  color: #FF4821;
   transition: 0.3s;
 }
 
